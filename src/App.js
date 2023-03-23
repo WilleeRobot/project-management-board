@@ -1,6 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
 import Header from "./components/Header/Header";
-import Backlog from "./pages/Backlog/Backlog";
 import Board from "./pages/Board";
 
 const GlobalStyle = createGlobalStyle`
@@ -27,7 +26,6 @@ function App() {
       <AppWrapper>
         <Header />
         <Board />
-        <Backlog />
       </AppWrapper>
     </>
   );
